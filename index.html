@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <nav>
             <a href="index.html">About Me</a> |
-            <a href="links.html">Links</a> |
+            <a href="links.html">Showcase</a> |
             <a href="blog.html">Writings</a>
             </nav>
         <hr>
@@ -19,41 +18,43 @@
 
     <main>
         <p>I'm a student majoring in Math and Computer Science at the University of Wisconsin-Madison.
-        This summer, I'll be interning at Amazon. Currently torn between research and industry. 
+        This summer, I'll be interning at AWS. 
         You can contact me at <strong>wcram 'at' wisc 'dot' edu</strong>, I'll try to get back to you within a day or two.</p>
         <p>Here's a list of some things I'm interested in:</p>
+
+        <figure>
+            <img src="me.jpg" alt="A picture of me">
+            <figcaption>Me, circa summer 2023</figcaption>
+        </figure>
+
         <ul>
             <li>Math
                 <ul>
-                    <li>Logic (Substructural, <strong>Modal</strong>, Intuitionistic)</li>
-                    <li>Algebra and <strong>Topology</strong>
+                    <li>Logic and its families (Substructural, Modal, Intuitionistic)</li>
+                    <li>Representation Theory</li>
                     <li>Category Theory (<em>cliche, I know</em>)</li>
                 </ul>
             </li>
             <li>Computer Science
                 <ul>
                     <li>PL Theory</li>
-                    <li>Functional language features</li>
-                    <li>Computability Theory</li>
+                    <li>Compilers</li>
+                    <li>Automated theorem-proving</li>
                 </ul>
             </li>
             <li>Other
                 <ul>
-                    <li>Physics, and more specifically how its laws restrict physically-realizable computation</li>
-                    <li>Automated theorem-proving</li>
+                    <li>Physics</li>
                     <li>Japanese and Russian languages</li>
                 </ul>
             </li>
         </ul>
+        
 
-        <p>Here's some "takes" on various topics:</p>
+        <p>Some food for thought:</p>
         <ul>
-            <li>While I believe AI will transform the landscape of the software industry and many adjacent sectors, 
-                I don't think we will acheive ASI in my lifetime. This isn't even because I think it's technically impossible,
-                rather that superintelligence can't (and shouldn't) spontaneously arise through largely "verbal" communication. 
-            </li>
             <li>The fact that <a href="https://en.wikipedia.org/wiki/Busy_beaver">BB(6)</a> and higher are "physically unrealizable" in conjunction with the fact that
-                many nontrivial mathematical statements require >5 states to "encode" into a Turing Machine indicates that abstraction and changes in perspective are
+                many deep mathematical statements require >5 states to encode into a Turing Machine indicates that abstraction and changes in perspective are
                 a fundamentally necessary part of truth-seeking.
             </li>
             <li>
@@ -64,10 +65,7 @@
                 solve many problems socratically, and then take a test to demonstrate their knowledge.
             </li>
             <li>
-                Having a morning alarm is the single worst you can do for your overall health.
-            </li>
-            <li>
-                Many so-called "rationalists" would do well to go with their gut more often.
+                Many so-called "rationalists" would do well to go with their gut more often. 
             </li>
         </ul>
     </main>
@@ -75,6 +73,7 @@
     <footer>
         <hr>
         <p id="quote"></p>
+        <p id="author"></p>
     </footer>
     <script src="script.js"></script>
 </body>
