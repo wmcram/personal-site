@@ -8,6 +8,7 @@ const quotes = [
     `Beware of bugs in the above code; I have only proved it correct, not tried it. -Donald Knuth`,
     `Computer Science is no more about computers than astronomy is about telescopes. -Edsger Dijkstra`,
     `One can imagine that the ultimate mathematician is one who can see analogies between analogies. -Stefan Banach`,
+    `Wir müssen wissen, wir werden wissen. -David Hilbert`,
 ]
 
 // split into quote and author
