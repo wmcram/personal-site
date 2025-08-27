@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Showcase</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Wil Cram's personal web-site.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wil Cram</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="keywords" content="wil cram, math, programming, computer science, physics, UW-Madison">
+  <meta name="description" content="Wil Cram's personal web-site.">
+  <meta name="robots" content="index, follow">
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <a href="index.html">About Me</a> |
-            <a href="links.html">Showcase</a> |
-            <a href="blog.html">Writings</a>
-            </nav>
-        <hr>
-    </header>
+  <header>
+    <nav>
+      <span>ΛΜ</span>
+      <a href="index.html">About Me</a>
+      <a href="links.html">Links</a>
+      <!--|<a href="blog.html">Writings</a>-->
+      <span>ΑΩ</span>
+    </nav>
+    <hr>
+  </header>
 
-    <main>
-        <p>Under Construction</p>
-    </main>
-    <footer>
-        <hr>
-        <p id="quote"></p>
-        <p id="author"></p>
-    </footer>
-    <script src="script.js"></script>
+  <main>
+    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+      <div style="flex: 1; margin-right: 2rem;">
+        <h3>Currently Reading:</h3>
+        <ul>
+          <li>Purely Functional Data Structures, <em>Chris Okasaki</em></li>
+          <li>Database Internals, <em>Alex Petrov</em></li>
+          <li>Types and Programming Languages, <em>Benjamin Pierce</em></li>
+        </ul>
+        <h3>Cool Articles:</h3>
+        <ul>
+          <li><a href="https://nshipster.com/uncertainty/">Uncertain&lt;T&gt;</a></li>
+          <li><a href="https://apfelmus.nfshost.com/articles/monoid-fingertree.html">Monoids and Finger Trees</a></li>
+          <li><a href="https://terrytao.wordpress.com/2025/05/31/a-lean-companion-to-analysis-i/">A Lean companion to
+              "Analysis I"</a></li>
+          <li><a href="https://osa1.net/posts/2025-06-28-why-effects.html">Why I'm excited about effect systems</a></li>
+        </ul>
+      </div>
+
+      <div style="flex: 1; margin-left: 2rem;">
+        <h3>Miscellaneous Book Recommendations</h3>
+        <p>These are books that I consider best-in-class for the "area" they cover.</p>
+        <ul>
+          <li>The New Penguin Russian Course</li>
+          <li>I don't consider any of the current Japanese textbooks to be very good, but I hold
+            <a href="https://alljapanesealltheti.me/index.html">AJATT</a> in high regard.
+          </li>
+          <li>Linear Algebra Done Right</li>
+          <li>Modern Mathematical Logic, Mileti</li>
+          <li>Algorithms, Erickson</li>
+          <li>Introduction to the Theory of Computation, Sipser</li>
+          <li>Complex Analysis, Ahlfors</li>
+          <li>Analysis I + II, Tao</li>
+          <li>Abstract Algebra, Dummit and Foote</li>
+          <li>Topology, Munkres</li>
+          <li>Introduction to Electrodynamics, Griffiths</li>
+          <li>Introduction to Quantum Mechanics, also Griffiths</li>
+          <li>David Tong's <a href='https://www.damtp.cam.ac.uk/user/tong/teaching.html'>notes</a> in general</li>
+          <li>Learning Go, Bodner</li>
+          <li>The C Programming Language</li>
+          <li>A Tour of C++</li>
+          <li>Programming Rust 2e</li>
+          <li>Haskell Programming From First Principles</li>
+          <li>Computer Systems, a Programmer's Perspective</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <hr>
+    <p id="quote"></p>
+    <p id="author"></p>
+    <span class="lambda">λ</span>
+  </footer>
+  <script src="script.js"></script>
 </body>
