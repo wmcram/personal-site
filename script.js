@@ -10,6 +10,7 @@ const quotes = [
   `One can imagine that the ultimate mathematician is one who can see analogies between analogies. -Stefan Banach`,
   `Wir müssen wissen, wir werden wissen. -David Hilbert`,
   `However impenetrable it seems, if you don't try it, then you can never do it. -Andrew Wiles`,
+  `"Should you just be an algebraist or a geometer?" is like saying "Would you rather be deaf or blind?" -Michael Atiyah`,
 ]
 
 // split into quote and author
